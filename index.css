@@ -24,6 +24,20 @@ h1 {
     display: inline;
 }
 
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    color: #676E7D;
+    padding: 1em;
+}
+
 h2>a {
     color: #676E7D;
     text-decoration: none;
@@ -32,4 +46,18 @@ h2>a {
 h3>a {
     color: #A0A4B3;
     text-decoration: none;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .navigation {
+        flex-direction: column;
+    }
 }
