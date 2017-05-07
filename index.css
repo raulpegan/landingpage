@@ -3,19 +3,12 @@ body {
     font-family: "Deja Vu Sans", monospace;
 }
 
-#center-block {
-   display: flex;
-   width: 100%;
-   height: 100%;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-
-.category {
+.flex-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -24,7 +17,7 @@ h1 {
 }
 
 .category>h2, .category>h3 {
-    margin: 4px;
+    display: inline;
 }
 
 h2>a {
