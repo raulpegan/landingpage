@@ -4,22 +4,28 @@ body {
 }
 
 #center-block {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right:-50%;
-
-    transform: translate(-50%, -50%);
+   display: flex;
+   width: 100%;
+   height: 100%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
+.category {
+    min-width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 h1 {
     color: #f3f4f5; 
 }
 
-h3, h2 {
-    display: inline;  
+.category>h2, .category>h3 {
+    margin: 4px;
 }
 
 h2>a {
