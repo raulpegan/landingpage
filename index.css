@@ -16,6 +16,10 @@ h1 {
     color: #f3f4f5; 
 }
 
+.category {
+    margin: 5px;
+}
+
 .category>h2, .category>h3 {
     display: inline;
 }
