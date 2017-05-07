@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    
+    <title> About </title>
+    
+    <link href='//fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <ul class="navigation" id="navbar">
+        <li><a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="misc.html">Misc</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="flex-container">
+        <div id="center-block">   
+            <h1>About Me</h1>
+            <h2>Raul Pegan's personal website</h2>
+            <p> This is my personal website where I will be posting all information pertaining to my career and my hobbies, oftentimes they are two in the same. This simple site is still under construction, and I hope to link all my personal projects and career experience to it.</p>
+            <p> The website itself is a personal project, so do not be surprised if you see some very awful styling and bad coding standards, this is where I put my css and html to a test.</p>
+            <a> Additionally, I am hosting this on a static hosting provider, so I'm using plain css, js, and html. Expect routing horrors.</a>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+function responsiveNav() {
+    var x = document.getElementById("navbar");
+    if (x.className === "navigation") {
+        x.className += " open";
+    } else {
+        x.className = "navigation";
+    }
+}
+</script>
+    
+</html>

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    
+    <title> Resume </title>
+    
+    <link href='//fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <ul class="navigation" id="navbar">
+        <li><a href="javascript:void(0);" class="icon" onclick="responsiveNav()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="misc.html">Misc</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="flex-container">
+        <div id="center-block">   
+            <h1>Coming soon</h1>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+function responsiveNav() {
+    var x = document.getElementById("navbar");
+    if (x.className === "navigation") {
+        x.className += " open";
+    } else {
+        x.className = "navigation";
+    }
+}
+</script>
+    
+</html>
