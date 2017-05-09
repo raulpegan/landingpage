@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'Dejavu Sans Mono';
+    src: url('static/DejaVuSansMono.ttf');
+}
+
+
+
 body {
     background: #2f343f;
-    font-family: "Deja Vu Sans", "Inconsolata", "Monaco", monospace;
+    font-family: 'Dejavu Sans Mono', monospace;
     display: flex;
     flex-direction: column;
     color: #f6f7f8;
