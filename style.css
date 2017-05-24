@@ -6,6 +6,7 @@
 body {
     background: #2f343f;
     font-family: 'Dejavu Sans Mono', monospace;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     color: #f6f7f8;
@@ -21,10 +22,6 @@ body {
 #center-block {
     max-width: 1000px;
     margin: 1vw;
-}
-
-h1 {
-    color: #f3f4f5; 
 }
 
 .category {
@@ -78,14 +75,18 @@ h1 {
     }
 }
 
-h2>a {
+h2 a {
     color: #676E7D;
     text-decoration: none;
 }
 
-h3>a {
+h3 a {
     color: #A0A4B3;
     text-decoration: none;
+}
+
+h1 {
+    color: #F3F4F5; 
 }
 
 h2 {
@@ -98,4 +99,8 @@ h3 {
 
 a {
     color: #F3F4F5;
+}
+
+td.skill {
+    vertical-align: top;
 }
