@@ -3,8 +3,6 @@
     src: url('static/DejaVuSansMono.ttf');
 }
 
-
-
 body {
     background: #2f343f;
     font-family: 'Dejavu Sans Mono', monospace;
@@ -55,14 +53,12 @@ h1 {
     display: none;
 }
 
-/* Medium screens */
 @media all and (max-width: 800px) {
     .navigation {
         justify-content: space-around;
     }
 }
 
-/* Small screens */
 @media all and (max-width: 500px) {
     .navigation {
         flex-direction: column;
